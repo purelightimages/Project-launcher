@@ -241,3 +241,222 @@ Have HVAC tech pull vacuum, open service valves, commission system, and sign pap
 - Pioneer Help Center: [help.pioneerminisplit.com](https://help.pioneerminisplit.com)
 - CYK-24 Installation Guide: [help.pioneerminisplit.com/en-US/install-cyk-locations-6073437](https://help.pioneerminisplit.com/en-US/install-cyk-locations-6073437)
 - Multi-Zone Outdoor Condenser Collection: [pioneerminisplit.com/collections/multi-zone-mini-split-outdoor-condenser-units-quantum-ultra](https://www.pioneerminisplit.com/collections/multi-zone-mini-split-outdoor-condenser-units-quantum-ultra)
+
+---
+
+## Multi-Brand Price & Comparison Research
+*Researched June 2026 — prices are current as of research date and will change*
+
+---
+
+### Key Finding: Ceiling Cassette Joist Compatibility Across All Brands
+
+Only **slim / one-way** cassettes fit between 16" on-center joists. Standard 4-way square cassettes do NOT fit.
+
+**Confirmed joist-compatible cassette dimensions across brands:**
+
+| Brand | Model | Width | Length | Depth | Fits 16" OC? |
+|---|---|---|---|---|---|
+| Pioneer | CYK-24 (one-way) | 13.25" | 50.25" | 9" | YES |
+| MRCOOL | OuttaSight 9K (DIYCASSETTE09HP-230) | 13.19" | 50.31" | 8.98" | YES |
+| ACiQ | Slim Cassette SCC-0609 | 13.19" | 50.31" | 8.98" | YES |
+| Midea | DLFSOAH09XAK slim cassette | ~13" | ~50" | ~9" | YES (confirm before ordering) |
+| Cooper & Hunter | OLIVIA one-way (CH-09MCT1W) | confirm | confirm | confirm | Likely YES — order confirms |
+
+Do NOT order any 4-way square cassette — those are 22"–24" wide and will NOT fit between joists.
+
+---
+
+### Brand Comparison Matrix
+
+| Factor | Pioneer Quantum Ultra | MRCOOL DIY 5th Gen | ACiQ Extreme | Cooper & Hunter OLIVIA | Thermospace HYPERHEAT |
+|---|---|---|---|---|---|
+| **Outdoor BTU (3-zone)** | 27,000 | 27,000 | 27,000 | 28,000 | 27,000–30,000 |
+| **SEER2** | 24.0 | 23.0 | 23.0–24.6 | 24.6 | 23.0 |
+| **Refrigerant** | R-454B | R-454B | R-454B | R-454B | R-410A |
+| **Min. heat temp** | -13°F | -13°F | -22°F | -13°F | -22°F |
+| **Vacuum required?** | YES | **NO** | YES | YES | YES |
+| **Flare tool required?** | NO (pre-flared line sets) | **NO** | NO (pre-flared) | NO (pre-flared) | NO (pre-flared) |
+| **EPA 608 to install?** | NO (sealed fittings) | **NO** | NO (sealed fittings) | NO (sealed fittings) | NO (sealed fittings) |
+| **Ceiling cassette joist fit?** | YES (CYK one-way) | YES (OuttaSight) | YES (SCC slim) | YES (OLIVIA one-way) | Unconfirmed — call first |
+| **Cassette condensate pump** | YES (built-in) | YES (built-in) | YES (built-in) | YES (built-in) | Unconfirmed |
+| **Warranty** | 7 yr (with HVAC sign-off) / 5 yr (self) | 7 yr compressor + lifetime option | 10 yr compressor | 5 yr parts / 7 yr compressor | 5 yr parts |
+| **HVAC tech required?** | YES (vacuum + sign-off) | **Potentially NO** | YES (vacuum) | YES (vacuum) | YES (vacuum) |
+| **Wi-Fi included?** | YES | YES | YES | YES | NO |
+| **R-410A (old refrigerant)?** | NO | NO | NO | NO | YES — phasing out |
+
+---
+
+### MRCOOL DIY — The Standout Option for a DIYer
+
+**Why this matters for your situation:**
+
+The MRCOOL DIY 5th Gen system uses patented **Quick Connect pre-charged line sets** — you simply push together sealed fittings, and the system comes pre-charged from the factory. This eliminates:
+
+- No vacuum pump (saves ~$300–$500 tool cost)
+- No flare tool (saves ~$100–$300 tool cost)
+- No EPA Section 608 certification (you're not handling open refrigerant)
+- **Potentially no HVAC tech visit at all** — saving $400–$700 in commissioning fees
+
+**Trade-offs:**
+- SEER2 is 23 vs Pioneer's 24 — roughly $50–$70/year more in electricity
+- Warranty is 7 years compressor / 5 years parts (no HVAC sign-off required — the warranty is built-in for DIY)
+- R-410A in 4th Gen (being phased out) — the **5th Gen uses R-454B** (correct, future-proof)
+- You still need an electrician for the 230V circuit
+
+**5th Gen OuttaSight Ceiling Cassette Specs:**
+- Model: DIYCASSETTE09HP-230D25-O (9K BTU, 230V)
+- Width: 13.19" — fits between 16" OC joists ✓
+- Length: 50.31"
+- Depth: 8.98"
+- One-way airflow (same concept as Pioneer CYK-24)
+- Built-in condensate pump
+- Available in 9K, 12K, 18K
+
+**MRCOOL 5th Gen 3-Zone OuttaSight Complete Systems** (outdoor + 3 cassettes + pre-charged line sets):
+- Available in 9K+9K+9K, 9K+9K+12K, 9K+12K+12K configurations
+- Price range: ~$3,200–$4,000 (check Home Depot, HVACDirect, MRCOOL DIY Direct)
+- Home Depot carries MRCOOL (search DIYM327HPW05D21 for wall unit version)
+
+**MRCOOL Resources:**
+- [MRCOOL DIY 3-Zone Ceiling Cassettes](https://mrcooldiydirect.com/collections/mrcool-3-zone-ceiling-cassettes)
+- [MRCOOL OuttaSight Product Page](https://www.mrcool.com/product/diy-ceiling-cassette)
+- [HVACDirect 5th Gen 3-Zone Ceiling Cassette](https://hvacdirect.com/27000-btu-mrcool-diy-5th-gen-23-seer2-tri-zone-ceiling-cassette-mini-split-heat-pump-system-r454b-230v-9-9-12.html)
+
+---
+
+### ACiQ — Best Efficiency + Hyper Heat
+
+ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** that heats down to -22°F — same as Thermospace HYPERHEAT, which is better than Pioneer's -13°F.
+
+**ACiQ Slim Ceiling Cassette (SCC-0609-HH-MB):**
+- Width: 13.19" — fits between 16" OC joists ✓
+- Length: 50.31"
+- Depth: 8.98"
+- 6K/9K BTU switchable via onboard dip switch
+- Built-in condensate pump (14" lift)
+- One-way airflow
+
+**ACiQ 27K 3-Zone Ceiling Cassette Systems (9+9+9):**
+- Extreme Series (23 SEER2, -22°F): ACIQ-27Z-HH-M3B / 3×ACIQ-09CC-HH-MB
+- Standard Series (24.6 SEER2, lower ambient): ES-27Z-M3 / 3×SCC-0609-HH-MB (slim cassettes)
+- Extreme Slim (23 SEER2, -22°F, slim cassette): ACiQ-27Z-HH-M4C / 3×SCC-09-HH-MB
+- Price range: ~$2,500–$3,200 estimated (check HVACDirect, OnlineSupply, Amazon)
+
+**Where to shop:**
+- [ACiQ 27K 3-Zone 9+9+9 on Amazon](https://www.amazon.com/dp/B0C8B6RBDG)
+- [HVACDirect ACiQ 27K Extreme 9+9+9](https://hvacdirect.com/aciq-27k-btu-3-zone-aciq-27-hh-m3-cc-9-9-9.html)
+- [OnlineSupply ACiQ 27K 3-Zone](https://onlinesupply.com/aciq-27k-btu-3-zone-aciq-27-hh-m3-cc-9-9-9.html)
+- [ACiQ Build-Your-Own at AC Direct](https://www.acdirect.com/aciq-27000-btu-3-zone-mini-split-heat-pump-ac-system-choose-your-indoor-units-r454b-6759.html)
+
+**Note:** ACiQ DOES require a vacuum pull and HVAC tech for commissioning (no quick-connect). Factor ~$400–$700 HVAC visit into total cost.
+
+---
+
+### Cooper & Hunter OLIVIA — Best SEER2 in Class
+
+**28,000 BTU 3-Zone OLIVIA Series with Ceiling Cassettes:**
+- SEER2: 24.6 — highest of any 3-zone system found
+- Refrigerant: R-454B
+- Cassette type: OLIVIA one-way (CH-09MCT1W-230VI) — one-way airflow
+- Complete 3-zone systems (9K+9K+9K or 9K+9K+12K) available with installation kits
+- Price range: Estimated $2,800–$3,500 (check MiniSplits4Less, SouthMiniSplits)
+
+**Where to shop:**
+- [MiniSplits4Less C&H OLIVIA 3-Zone](https://minisplitsforless.com/products/28-000-btu-3-zone-9k-9k-12k-ceiling-cassettes-with-installation-kits-24-6-seer2-2-3-ton-tri-zone-ductless-multi-mini-split-air-conditioner)
+- [Walmart C&H 28K 3-Zone 9+9+9](https://www.walmart.com/ip/Cooper-Hunter-28000-BTU-230V-Ceiling-Cassette-Tri-3-Zone-Mini-Split-Heat-Pump-Air-Conditioner-9K-9K-9K-Cover-1200-Sq-Ft/929439438)
+
+**Note:** Confirm one-way cassette dimensions with seller before ordering to verify 16" joist fit.
+
+---
+
+### Senville AURA — Trusted Brand, Higher Price
+
+- Outdoor unit (SENA-30HF/MOZ, 28K BTU, 3-zone): **$2,599 at FactoryPure** (outdoor unit ONLY)
+- Wall-mount 3-zone complete system (SENA-30HF-T999): ~$2,200–$2,600 with line sets at specialty retailers
+- Ceiling cassette indoor sections available separately (mix with outdoor unit)
+- 23 SEER2, R-454B
+- **Note:** At $2,599 for outdoor unit alone, total system cost would exceed Pioneer. Better value elsewhere unless you specifically want Senville.
+
+---
+
+### Thermospace HYPERHEAT — Best for Cold-Climate Heating
+
+**Advantages over Pioneer:**
+- Heats to -22°F vs Pioneer's -13°F (significant if temps drop below zero)
+- Lower entry price as a complete system
+
+**Disadvantages:**
+- R-410A refrigerant (being phased out — not future-proof)
+- No Wi-Fi built in
+- Ceiling cassette joist compatibility unconfirmed — **call before ordering: (888) 612-4108**
+- eBay-direct model — less distribution support
+
+**Previously confirmed eBay pricing (previous session):**
+- T7HH23D-H236 with 3 × wall units: ~$2,533.94 on eBay
+- Ceiling cassette upgrade: +$140/zone (up to 3 zones) — call to confirm all 3 zones can be cassettes
+
+**Where to check:** [Thermospace eBay Store](https://www.ebay.com/str/thermospaceairconditioners)
+
+---
+
+### Pricing Summary — All Brands
+
+| System | Config | Est. Price (equipment) | HVAC Tech Needed? | Notes |
+|---|---|---|---|---|
+| **MRCOOL DIY 5th Gen** | 27K 3-zone OuttaSight cassettes 9+9+9 or 9+9+12 | ~$3,200–$4,000 | **Optional** | No vacuum, no EPA — biggest DIY advantage |
+| **Pioneer Quantum Ultra** | 27K 3-zone, mixed (2× RT009 duct + 1× CYK cassette) | ~$2,978–$3,578 | YES ($400–$700) | 24 SEER2, 7-yr warranty w/ sign-off |
+| **Pioneer Bundle (Home Depot)** | 27K 3-zone, 3× wall units + 16ft lines | **$2,887** (confirmed) | YES | Wall units only — not cassettes |
+| **ACiQ Extreme** | 27K 3-zone, 3× ceiling cassettes 9+9+9 | ~$2,500–$3,200 | YES ($400–$700) | -22°F heat, slim cassette fits joists |
+| **Cooper & Hunter OLIVIA** | 28K 3-zone, ceiling cassettes 9+9+9 | ~$2,800–$3,500 | YES ($400–$700) | 24.6 SEER2 (highest rated) |
+| **Thermospace HYPERHEAT** | 27K 3-zone, mixed w/ cassettes | ~$2,534 + $420 cassettes ≈ $2,954 | YES ($400–$700) | -22°F heat, R-410A (old refrigerant) |
+| **Senville AURA** | 28K 3-zone (outdoor only $2,599) | $3,500–$4,500 total est. | YES ($400–$700) | Pricier than Pioneer for same result |
+
+**All prices are equipment only. Add electrician ($150–$300) and helper labor ($150–$300) to every option.**
+
+---
+
+### Best Shopping Sources by Brand
+
+| Brand | Best Price Source | Notes |
+|---|---|---|
+| Pioneer | [highseer.com](https://www.highseer.com) | $1,528 outdoor unit (sale vs $2,179 regular) |
+| Pioneer | [Home Depot](https://www.homedepot.com) | $2,887 complete bundle (wall units) |
+| MRCOOL | [mrcooldiydirect.com](https://mrcooldiydirect.com) | Authorized MRCOOL dealer |
+| MRCOOL | [hvacdirect.com](https://hvacdirect.com) | Good selection, 5th Gen cassette configs |
+| MRCOOL | Home Depot / Lowe's | Both carry MRCOOL DIY line |
+| ACiQ | [hvacdirect.com](https://hvacdirect.com) | Wide ACiQ selection |
+| ACiQ | [onlinesupply.com](https://onlinesupply.com) | Multiple configurations |
+| ACiQ | [Amazon](https://www.amazon.com/dp/B0C8B6RBDG) | 27K 3-zone cassette 9+9+9 |
+| Cooper & Hunter | [minisplitsforless.com](https://minisplitsforless.com) | Ceiling cassette bundles |
+| Cooper & Hunter | Walmart | 28K 3-zone ceiling cassette |
+| Thermospace | [eBay store](https://www.ebay.com/str/thermospaceairconditioners) | Direct from manufacturer |
+| Senville | [chillminisplits.com](https://chillminisplits.com) | Authorized Senville dealer |
+| All brands | [acdirect.com](https://www.acdirect.com) | Good for custom zone configs |
+| All brands | [minisplitwarehouse.com](https://www.minisplitwarehouse.com) | Wide selection, good prices |
+
+---
+
+### Recommendation for Your Situation
+
+**If you want the most DIY-friendly path (least HVAC tech time):**
+→ **MRCOOL DIY 5th Gen OuttaSight** — No vacuum, no EPA, no flare tool. You could potentially do the entire mechanical installation yourself. The 23 SEER2 vs Pioneer's 24 SEER2 costs roughly $60/year more in electricity — well worth the HVAC labor savings.
+
+**If you want the best efficiency and still do most of the work:**
+→ **Pioneer Quantum Ultra (your current plan)** — 24 SEER2, best-in-class efficiency, proven platform. You do all the mechanical prep, HVAC tech does vacuum/commissioning/sign-off in one visit for the 7-year warranty.
+
+**If you want the best cold-weather heating + cassettes:**
+→ **ACiQ Extreme Slim Cassette** — -22°F capable (doubles Pioneer's low-ambient rating), same cassette footprint that fits your joists, 23–24.6 SEER2.
+
+**If you want the absolute lowest total equipment cost for cassette-only zones:**
+→ **Thermospace HYPERHEAT** — but call first to confirm cassette dimensions fit your joists, and note R-410A is the older refrigerant.
+
+---
+
+### Questions to Ask Any Seller Before Ordering
+
+1. **Do your ceiling cassette indoor units fit between 16" on-center joists?** (Need width < 14.5" and depth < 14")
+2. **Do the cassette indoor units have a built-in condensate lift pump?** (If not, you need gravity drain which requires sloped ceiling)
+3. **Does this system come pre-charged, or do I need an HVAC tech to add refrigerant?**
+4. **What are the pre-charge line lengths per circuit?** (Need to cover your longest run)
+5. **Are the indoor units from a brand-matched system or third-party?** (Mixed brands can void warranty)
