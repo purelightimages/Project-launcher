@@ -460,3 +460,161 @@ ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** 
 3. **Does this system come pre-charged, or do I need an HVAC tech to add refrigerant?**
 4. **What are the pre-charge line lengths per circuit?** (Need to cover your longest run)
 5. **Are the indoor units from a brand-matched system or third-party?** (Mixed brands can void warranty)
+
+---
+
+## Pioneer YNL-24 Multi-Zone Technical Specifications
+*Source: YNL24_MultiZone_FreeMatch_Brochure.pdf — official Pioneer / Parker Davis document*
+*Manufacturer: Parker Davis HVAC International, Inc. — 7290 NW 77th Ct, Miami, FL 33166 — (800) 675-7410*
+
+---
+
+### Your Outdoor Unit — YN030GLSI24M3G (3-Zone, 27K BTU, 24 SEER2)
+
+| Spec | Value |
+|---|---|
+| **Cooling capacity** | 27,000 BTU/h (range: 4,500–31,000) |
+| **Heating capacity** | 28,000 BTU/h (range: 4,500–33,000) |
+| **SEER2** | **24.0** |
+| **EER2** | 12.0 |
+| **HSPF2** | 10.5 (IV) / 8.8 (V) |
+| **Rated cooling power** | 2,020W |
+| **Rated heating power** | 1,980W |
+| **Rated current (cooling)** | 13.1A |
+| **Min circuit ampacity** | 18A |
+| **Max breaker** | **30A double-pole** |
+| **Outdoor noise level** | **62 dB(A)** ← confirmed from spec sheet |
+| **Compressor type** | Twin Rotary |
+| **Refrigerant** | R-454B |
+| **Pre-charge optimized for** | 16 ft linesets |
+| **Refrigerant adjustment** | 0.11 oz per foot for runs <10 ft or >25 ft |
+| **Dimensions (W×D×H)** | 38.5" × 16.5" × 31.625" |
+| **Net weight** | 119 lbs |
+| **Gross weight** | 127.9 lbs |
+| **COP2 (at 47°F)** | 3.5 |
+| **Low heating capacity (@17°F)** | 22,400 BTU/h |
+| **Cooling range (outdoor)** | 5°F to 131°F |
+| **Heating range (outdoor)** | -13°F to 86°F |
+
+**Lineset & wiring limits per zone:**
+
+| Limit | Value |
+|---|---|
+| Max single circuit length | **100 ft** |
+| Max total lineset length (all circuits combined) | **265 ft** |
+| Max indoor elevation difference | 33 ft |
+| Max vertical run | **50 ft** |
+| Control wire spec | AWG 16# × 4 (TC-ER) |
+
+---
+
+### Your Concealed Duct Unit — RT009GLSILCFHG (Zones 1 & 2)
+
+| Spec | Value |
+|---|---|
+| **Cooling capacity** | 9,500 BTU/h (range: 2,000–10,400) |
+| **Heating capacity** | 9,500 BTU/h (range: 2,500–12,300) |
+| **SEER2** | 19.6 |
+| **Rated cooling power** | 750W |
+| **EER2** | 12.0 |
+| **COP2 (at 47°F)** | 3.5 |
+| **HSPF2** | 10.0 (IV) / 8.8 (V) |
+| **Dimensions (W×D×H)** | **27.5" × 19.25" × 7.875"** |
+| **Net weight** | 33.1 lbs |
+| **Max external static pressure** | **99.6 Pa (0.4 in. wg)** — duct design limit |
+| **Refrigerant piping** | 1/4" liquid / **3/8" suction** |
+| **Max lineset / vertical run** | 50 ft / 33 ft |
+| **Controller type** | **LCD Wired** (not wireless — mounts on wall) |
+| **Control wire** | AWG 16# × 4 (TC-ER) |
+| **Air flow (Hi/Md/Lo)** | 335 / 276 / 182 CFM |
+| **Noise level (Hi/Md/Lo)** | 43 / 41 / 39 dB(A) |
+
+**Important:** The RT009 uses a **wired LCD controller** that mounts on a wall like a thermostat — not a handheld remote. Plan mounting location when roughing in control wiring.
+
+---
+
+### IMPORTANT: Two Different Pioneer Ceiling Cassette Models — Do Not Confuse
+
+**CT009GLSILCFHG — Square 4-Way Cassette (WRONG for your joists)**
+
+| Spec | Value |
+|---|---|
+| Body dimensions | **22.5" × 22.5" × 9.625"** |
+| Panel/grille dimensions | 25.625" × 25.625" × 2.375" |
+| Type | 4-way / 8-way airflow |
+| Fits 16" OC joists? | **NO — too wide** |
+
+This is the model listed in this brochure (CT series). **Do not order this for your project.**
+
+---
+
+**CYK Series — One-Way Slim Cassette (CORRECT for your joists)**
+
+This model is NOT in this brochure — it is a separate Pioneer product line.
+
+| Spec | Value |
+|---|---|
+| Body dimensions | ~50.25" L × 13.25" W × 9" D |
+| Type | One-way airflow (single direction) |
+| Fits 16" OC joists? | **YES** |
+| Built-in condensate pump | YES (~30" lift) |
+| Multi-zone version to order | **Quantum Series One-Way 9K** (indoor section only) |
+
+**Order:** [Multi-Zone 9K One-Way Indoor Section](https://www.pioneerminisplit.com/products/pioneer-multi-zone-9-000-btu-quantum-series-one-way-cassette-indoor-section-split-inverter-air-conditioner-heat-pump-230v)
+**Do NOT order:** CT009GLSILCFHG (square cassette, does not fit joists)
+
+---
+
+### Approved Indoor Unit Combinations for YN030GLSI24M3G (3-Zone)
+
+Any of these BTU combinations is valid:
+
+| Zone 1 | Zone 2 | Zone 3 |
+|---|---|---|
+| 9,000 | 9,000 | 9,000 |
+| 12,000 | 9,000 | 9,000 |
+| 18,000 | 9,000 | 9,000 |
+| 12,000 | 12,000 | 9,000 |
+| 18,000 | 12,000 | 9,000 |
+| 12,000 | 12,000 | 12,000 |
+| 24,000 | 9,000 | 9,000 |
+| 18,000 | 12,000 | 12,000 |
+| 24,000 | 12,000 | 9,000 |
+| 18,000 | 18,000 | 12,000 |
+| 24,000 | 12,000 | 12,000 |
+
+**Your configuration (9+9+9) is valid.** All indoor units must be from the YNL-24 compatible series (WT, CT, RT, or UT models listed below).
+
+**Compatible indoor unit model series:**
+
+| Type | Models |
+|---|---|
+| Wall mount | WT009, WT012, WT018, WT024 |
+| Ceiling cassette (4-way square) | CT009, CT012, CT018, CT024 |
+| Concealed duct | **RT009**, RT012, RT018 |
+| Floor-ceiling flex | UT018 |
+| One-way slim cassette | CYK series (separate product line — compatible, not in this brochure) |
+
+---
+
+### Refrigerant Piping Sizes by Indoor Unit BTU
+
+| Unit Size | Liquid Line | Suction Line |
+|---|---|---|
+| 9,000–12,000 BTU (RT009, WT009, CT009) | 1/4" OD | **3/8" OD** |
+| 18,000 BTU (RT018, WT018, CT018) | 1/4" OD | **1/2" OD** |
+| 24,000 BTU (RT024, WT024, CT024) | 1/4" OD | **5/8" OD** |
+
+**For your system (all 9K units):** 1/4" liquid / 3/8" suction on all three circuits.
+
+---
+
+### Accessories Available from Pioneer
+
+- Lineset flushing kit
+- UVC bacterial disinfection kit
+- Surge protection
+- Mounting brackets
+- Line cover kit (decorative chase)
+- Condensate pump (external — for units without built-in pump)
+- Mounting base (for outdoor unit)
