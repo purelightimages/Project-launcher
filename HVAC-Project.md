@@ -618,3 +618,171 @@ Any of these BTU combinations is valid:
 - Line cover kit (decorative chase)
 - Condensate pump (external — for units without built-in pump)
 - Mounting base (for outdoor unit)
+
+---
+
+## Finalist System Comparison
+*Analyzed June 2026 — final two systems under consideration*
+
+---
+
+### The Two Finalists
+
+**Option A — Thermospace T7HH25D-H224-9+9+9 (HYPERHEAT)**
+- Outdoor: T7HH25D-H224-C, 27K BTU, 22.5 SEER, 10.2 HSPF4, R-410A, -22°F to 122°F
+- Indoor: 3× T7-OS209-EC cassette, 9K BTU each
+- Includes: 15ft install kits × 3, wall thermostats × 3, remote controls × 3
+- Warranty: 1 yr parts / 5 yr compressor (extendable to 3yr/7yr for $130/yr)
+- Ships LTL freight, free shipping continental US, from Warren, Michigan
+- Compressor: Toshiba-GMCC twin rotary
+- Max fuse: 25A / Outdoor dims: 37.24" × 16.14" × 31.89" / Weight: 137.25 lbs
+- Outdoor noise: 62 dB(A)
+
+**Option B — Pioneer YN030GLSI24M3G + 3× CYK Quantum Series 9K**
+- Outdoor: YN030GLSI24M3G, 27K BTU, 24.0 SEER2, 10.5 HSPF2, R-454B, -13°F to 131°F
+- Indoor: 3× Quantum Series One-Way 9K cassette (CYK series)
+- Includes: outdoor unit only — line sets and accessories purchased separately
+- Warranty: 5 yr parts (self-install) / **7 yr parts (with licensed HVAC sign-off)**
+- Pioneer direct: ~$1,678 outdoor + ~$450 × 3 indoor = ~$3,028 equipment
+- Max fuse: 30A / Outdoor dims: 38.5" × 16.5" × 31.625" / Weight: 119 lbs
+- Outdoor noise: 62 dB(A)
+
+---
+
+### CRITICAL JOIST COMPATIBILITY FINDING
+
+**⚠ The Thermospace cassette (T7-OS209-EC) is a SQUARE 4-WAY unit — it will NOT fit between 16" on-center joists.**
+
+Thermospace T7-OS209-EC cassette dimensions:
+- **Body: 22.44" × 22.44" × 10.24"**
+- Panel/grille: 25.47" × 25.47"
+
+Your floor joists are 16" on-center. The cassette opening through the ceiling must fit within a single joist bay. At 22.44" wide, the T7-OS209-EC is **wider than the joist spacing by 6 inches**. It would require cutting through structural joists — not a viable installation path.
+
+**This makes the Thermospace system, as configured with T7-OS209-EC cassettes, incompatible with your ceiling joist structure.**
+
+Thermospace may offer a slim one-way cassette in a separate model line — call before ordering: **(888) 612-4108**. Ask specifically: "Do you have a ceiling cassette with a body width under 14 inches that fits between 16-inch on-center joists?" If they don't have one, the system cannot be ceiling-mounted in your space.
+
+---
+
+### CLARIFICATION: Pioneer CYK DOES Fit Your Joists
+
+The user note stated "this system doesn't offer a ceiling cassette that fits between 16" on center rafters" — this is **incorrect**.
+
+Pioneer's CYK (Quantum Series One-Way) cassette:
+- **Body: ~50.25" L × 13.25" W × 9" D**
+- Width 13.25" is narrower than a 14.5" clear joist bay — **fits cleanly between 16" OC joists**
+- One-way (single-direction) airflow — designed for tight ceiling cavities
+
+The confusion likely came from the YNL-24 brochure, which shows the **CT009 square cassette** (22.5" × 22.5") — that unit does NOT fit joists. The CYK is a **separate Pioneer product line** not listed in that brochure. Both are Pioneer, but CYK = slim/one-way = correct; CT = square/4-way = wrong.
+
+**The Pioneer YN030GLSI24M3G + 3× CYK is fully compatible with your 16" OC joist ceiling.**
+
+---
+
+### Head-to-Head Comparison
+
+| Factor | Thermospace Option A | Pioneer Option B | Winner |
+|---|---|---|---|
+| **Joist compatibility (as configured)** | **NO — 22.44" wide cassette** | **YES — 13.25" wide CYK** | **Pioneer** |
+| **Cooling efficiency** | 22.5 SEER (older standard) | **24.0 SEER2** (stricter standard) | **Pioneer** |
+| **Heating efficiency** | 10.2 HSPF4 | **10.5 HSPF2** (stricter) | **Pioneer** |
+| **Refrigerant** | **R-410A** (phasing out; EPA may restrict supply/resale) | **R-454B** (current standard, future-proof) | **Pioneer** |
+| **Low-temp heating limit** | **-22°F** (HYPERHEAT) | -13°F | **Thermospace** |
+| **Max fuse/breaker** | 25A single-pole or double? (confirm) | **30A double-pole** (confirmed) | Tie |
+| **Outdoor unit weight** | 137.25 lbs | 119 lbs | **Pioneer** (lighter, easier to set) |
+| **Outdoor unit footprint** | 37.24" × 16.14" | 38.5" × 16.5" | Tie |
+| **Outdoor noise** | 62 dB(A) | 62 dB(A) | Tie |
+| **Warranty (standard)** | 1 yr parts / 5 yr compressor | 5 yr parts / 5 yr compressor | **Thermospace** (compressor term) |
+| **Warranty (extended)** | 3 yr / 7 yr for +$130/yr | **7 yr parts** with HVAC sign-off (no added cost) | **Pioneer** |
+| **Wi-Fi / smart control** | NO (wall thermostats + remote only) | **YES** (included) | **Pioneer** |
+| **Includes line sets?** | YES (15 ft × 3) | NO — purchased separately (~$150–$300) | **Thermospace** |
+| **Includes thermostats?** | YES (3 × wall thermostats) | NO — wired controller extra for RT, remote for CYK | **Thermospace** |
+| **Equipment price** | ~$2,533–$2,800 (complete with cassettes) | ~$3,028 (outdoor + 3× CYK indoor, no line sets) | **Thermospace** |
+| **Total cost w/ line sets + HVAC** | ~$3,400–$4,100 est. | ~$3,600–$4,400 est. | **Thermospace** (narrow margin) |
+| **R-454B future availability** | NO — R-410A, harder to source future | **YES** — R-454B is the new standard | **Pioneer** |
+| **Company/support** | eBay-based direct, Michigan | Pioneer/Parker Davis, Miami, national dealer network | **Pioneer** |
+
+**Verdict: Pioneer wins on every technical criterion except low-temperature heating and price.**
+
+---
+
+### Should You Care About -22°F vs -13°F?
+
+This depends entirely on your local winter lows. Pioneer heats down to **-13°F**:
+
+- If your area never sees below -13°F: the Thermospace HyperHeat advantage is irrelevant
+- If temps regularly hit -15°F to -22°F: Thermospace keeps running at full capacity; Pioneer may derate or shut down
+
+**Check your local record low** (NOAA historical records for your zip code). For most of the continental US outside the northern Great Plains and mountain states, -13°F is sufficient.
+
+If you're in a climate where -22°F matters, note that **ACiQ Extreme Slim Cassette** also reaches -22°F, uses R-454B (not R-410A), fits 16" OC joists, and costs roughly the same as Pioneer. ACiQ becomes the better HyperHeat alternative.
+
+---
+
+### R-410A Warning (Thermospace)
+
+R-410A is being phased out under the AIM Act and EPA Section 608 refrigerant regulations. As of January 1, 2025:
+- New equipment using R-410A cannot be manufactured or imported (commercial HVAC)
+- Residential timeline follows shortly — R-410A supply will tighten, prices will rise
+- Service calls requiring refrigerant addition will become more expensive over time
+- R-454B (Pioneer) and R-32 are the replacement standards
+
+Installing an R-410A system today means a shorter useful service life before refrigerant becomes a maintenance cost problem. For a long-term installation, R-454B is strongly preferred.
+
+---
+
+### Final Recommendation
+
+**Go with Pioneer YN030GLSI24M3G + 3× CYK Quantum Series 9K** unless your local record lows regularly go below -13°F and you can confirm Thermospace offers a joist-compatible slim cassette.
+
+Reasons:
+1. The Thermospace cassette as configured (T7-OS209-EC, 22.44") **physically cannot be installed** in your 16" OC joist ceiling
+2. Pioneer CYK (13.25" wide) **does fit** — that was the source of the earlier confusion
+3. R-454B is future-proof; R-410A is not
+4. Pioneer's 7-year parts warranty (with HVAC sign-off) is superior to Thermospace's 5-year standard
+5. Pioneer has a national dealer/support network; Thermospace is eBay-direct
+6. SEER2 24.0 vs 22.5 SEER — Pioneer is more efficient (noting SEER2 uses a stricter test protocol, so the gap is real)
+
+**If lowest-cost all-in system is the priority and Thermospace can confirm a slim cassette:**
+Call Thermospace at (888) 612-4108 and ask: "Do you have a ceiling cassette with a body width under 14 inches for a 16-inch on-center joist installation?" If yes, the $300–$400 price difference may be worth it for the HyperHeat -22°F rating. If no, the Thermospace option is off the table for ceiling installation.
+
+---
+
+### Thermospace T7HH25D-H224-9+9+9 Full Specs (as received)
+
+**Outdoor Unit: T7HH25D-H224-C**
+
+| Spec | Value |
+|---|---|
+| BTU | 27,000 |
+| SEER | 22.5 |
+| EER | 13 |
+| HSPF4 | 10.2 |
+| Operating range | -22°F to 122°F |
+| Refrigerant | R-410A, pre-charged to 75 ft |
+| Compressor | Toshiba-GMCC twin rotary |
+| Outdoor noise | 62 dB(A) |
+| Max fuse | 25A |
+| Dimensions | 37.24" × 16.14" × 31.89" |
+| Weight | 137.25 lbs |
+
+**Indoor Cassette: T7-OS209-EC**
+
+| Spec | Value |
+|---|---|
+| BTU | 9,000 |
+| **Body dimensions** | **22.44" × 22.44" × 10.24" — SQUARE, will NOT fit 16" OC joists** |
+| Panel/grille | 25.47" × 25.47" |
+| Noise (Hi/Med/Lo) | 41 / 37 / 33 dB(A) |
+| Refrigerant connections | 1/4" liquid / 3/8" suction |
+| Type | 4-way square cassette |
+
+**What's included:**
+- 3× T7-OS209-EC cassettes
+- 3× 15 ft install kits (line sets)
+- 3× wall thermostats
+- 3× remote controls
+- Warranty: 1 yr parts / 5 yr compressor standard; 3 yr / 7 yr extendable at +$130/yr
+
+**Shipping:** LTL freight, free continental US, ships from Warren, Michigan
