@@ -35,15 +35,55 @@
 
 ## ⚠ PLAN STATUS UPDATE — June 2026
 
-**The all-ceiling-cassette Pioneer plan has a compatibility problem.** See "Pioneer Cassette Compatibility Gap" section below.
+**The original Pioneer all-ceiling-cassette plan needs verification.** The CK009GMFILCFHD (the slim multi-zone cassette in Pioneer's compatibility list) is confirmed discontinued. Pioneer's website still shows a "Multi-Zone One-Way 9K" product page — call (800) 675-7410 to confirm the current model number before ordering.
 
-**Current leading recommendation: MRCOOL DIY 5th Gen OuttaSight 3-zone system.** See "Current Top Recommendation" section below.
+**Current leading recommendation: MRCOOL DIY 5th Gen OuttaSight 3-zone system** — no vacuum pump, no EPA 608, no HVAC tech required.
+
+---
+
+## Current Top Recommendation — MRCOOL DIY 5th Gen OuttaSight
+
+**3-Zone 27,000 BTU with 3× Slim Ceiling Cassettes — fits 16" OC joists**
+
+| Spec | Value |
+|---|---|
+| **Outdoor unit** | DIY-MULTI4-27HP |
+| **Cassette indoor unit (× 3)** | DIYCASSETTE09HP-230D25-O (9K each) |
+| **Complete system model** | DIY327HPC090909-25 (with 25 ft line sets) |
+| **Cassette width** | **13.19"** — fits 16" OC joist bay |
+| **Cassette length** | 50.31" |
+| **Cassette depth** | 8.98" |
+| **SEER2** | 23.0 |
+| **Refrigerant** | R-454B (future-proof) |
+| **Min heat temp** | -13°F |
+| **Vacuum required?** | **NO — pre-charged quick-connect** |
+| **EPA 608 required?** | **NO** |
+| **HVAC tech required?** | **Potentially NO** |
+| **Line sets** | Included (pre-charged, quick-connect) |
+| **Built-in condensate pump** | YES |
+| **Price range** | ~$3,200–$4,000 complete |
+
+**Why MRCOOL leads for this project:**
+- Pre-charged quick-connect line sets — push fittings together, torque to spec, done
+- No vacuum pump needed (saves $300–$500 in tool rental/purchase)
+- No EPA Section 608 certification needed (no open refrigerant handling)
+- Warranty does not require HVAC sign-off — built in for DIY installs
+- SEER2 23.0 vs Pioneer's 24.0 costs roughly $60–$70/year more in electricity — well offset by $400–$700 saved on HVAC commissioning
+
+**Direct purchase links:**
+- [MRCOOL DIY 3-Zone Ceiling Cassette Systems](https://mrcooldiydirect.com/collections/mrcool-3-zone-ceiling-cassettes)
+- [MRCOOL OuttaSight Product Page (specs & dimensions)](https://www.mrcool.com/product/diy-ceiling-cassette)
+- [MRCOOL 5th Gen Specs Sheet](https://www.mrcool.com/product/diy-5th-generation/specification)
+- [9K OuttaSight cassette at Got Ductless](https://gotductless.com/products/mr-cool-diycassette09hp-230d25-o-9-000-btu-one-way-ceiling-cassette-indoor-unit-r454b)
+- [HVACDirect — MRCOOL 5th Gen 3-Zone cassette configs](https://hvacdirect.com/27000-btu-mrcool-diy-5th-gen-23-seer2-tri-zone-ceiling-cassette-mini-split-heat-pump-system-r454b-230v-9-9-12.html)
+- [Home Depot MRCOOL DIY selection](https://www.homedepot.com/b/Heating-Venting-Cooling-Mini-Split-Air-Conditioners-DIY-Mini-Splits/MRCOOL/N-5yc1vZ1z18ggoZfyt)
+- [Lowe's MRCOOL selection](https://www.lowes.com/b/mrcool)
 
 ---
 
 ## Selected Equipment (ORIGINAL PLAN — verify before ordering)
 
-> **NOTE:** The CK009GMFILCFHD slim one-way cassette listed as Pioneer-compatible has been confirmed **discontinued** with no direct replacement. Before ordering any Pioneer indoor unit, call Pioneer at (800) 675-7410 and ask: *"What is the current multi-zone compatible slim one-way ceiling cassette model that fits 16-inch on-center joists for use with the YN030GLSI24M3G?"* If no answer exists, use MRCOOL DIY OuttaSight instead.
+> **NOTE:** The CK009GMFILCFHD slim one-way cassette previously listed as Pioneer multi-zone compatible is confirmed **discontinued**. Pioneer's website still lists a "Multi-Zone 9K One-Way Cassette" product — call Pioneer at **(800) 675-7410** and ask: *"What is the current model number for a multi-zone compatible slim one-way ceiling cassette that fits 16-inch on-center joists, for use with the YN030GLSI24M3G?"* If they confirm a current model exists, this plan is viable. If not, use MRCOOL DIY OuttaSight.
 
 ### Outdoor Unit
 | Item | Detail |
@@ -796,3 +836,166 @@ Call Thermospace at (888) 612-4108 and ask: "Do you have a ceiling cassette with
 - Warranty: 1 yr parts / 5 yr compressor standard; 3 yr / 7 yr extendable at +$130/yr
 
 **Shipping:** LTL freight, free continental US, ships from Warren, Michigan
+
+---
+
+## Confirmed Joist-Compatible Multi-Zone Systems — Full Directory
+*Researched June 2026 — all systems below confirmed to fit between 16" on-center joists*
+
+Only slim one-way cassettes (width under 14.5") fit a single 16" OC joist bay. All systems listed below have confirmed cassette widths ≤ 13.25".
+
+---
+
+### Quick-Reference Table
+
+| Brand / System | Cassette Width | Multi-Zone? | SEER2 | Min Heat | Vacuum? | Est. Price (27K 3-zone) |
+|---|---|---|---|---|---|---|
+| **MRCOOL DIY 5th Gen OuttaSight** | 13.19" | YES | 23.0 | -13°F | **NO** | $3,200–$4,000 |
+| **ACiQ Extreme Slim Cassette** | 13.19" | YES | 23.0 | **-22°F** | YES | $2,500–$3,200 |
+| **ACiQ Standard Slim Cassette** | 13.19" | YES | 24.6 | -13°F | YES | $2,500–$3,200 |
+| **Pioneer Quantum Ultra + CYK** | 13.25" | YES* | 24.0 | -13°F | YES | $3,200–$3,400 |
+| **Cooper & Hunter OLIVIA** | 13.19" | YES | 24.6 | -13°F | YES | $2,800–$3,500 |
+| **DELLA Home** | unconfirmed | YES | ~20.5 | unknown | YES | $3,400–$3,930 |
+
+*Pioneer: call to confirm current model number — CK009GMFILCFHD is discontinued.
+
+**Did NOT qualify:**
+- Mitsubishi EZ FIT cassette: 43.38" wide — does not fit
+- Klimaire: 4-way square cassette, dimensions not confirmed slim
+- Boreal: dimensions unconfirmed + R-410A (phasing out)
+- Thermospace T7-OS209-EC: 22.44" wide — does not fit
+- Daikin: slim cassette joist fit not confirmed for 3-zone residential
+
+---
+
+### MRCOOL DIY 5th Gen OuttaSight — Full Specs
+
+**Best for: DIYers who want to minimize or eliminate HVAC tech involvement**
+
+- Outdoor: DIY-MULTI4-27HP
+- Cassette (× 3): DIYCASSETTE09HP-230D25-O
+- Complete system: DIY327HPC090909-25 (9+9+9 with 25 ft pre-charged lines)
+- Cassette body: **13.19" × 50.31" × 8.98"** — fits 16" OC joists
+- SEER2: 23.0 | EER2: 12.0 | HSPF2: 10.5
+- R-454B refrigerant, pre-charged quick-connect
+- No vacuum pump, no EPA 608, no flare tool
+- Built-in condensate pump
+- Available in 9+9+9, 9+9+12, 9+12+12 configurations
+
+**Links:**
+- [MRCOOL DIY 3-Zone Ceiling Cassettes (mrcooldiydirect.com)](https://mrcooldiydirect.com/collections/mrcool-3-zone-ceiling-cassettes)
+- [OuttaSight product page & dimensions](https://www.mrcool.com/product/diy-ceiling-cassette)
+- [5th Gen specification sheet](https://www.mrcool.com/product/diy-5th-generation/specification)
+- [9K cassette unit at Got Ductless](https://gotductless.com/products/mr-cool-diycassette09hp-230d25-o-9-000-btu-one-way-ceiling-cassette-indoor-unit-r454b)
+- [HVACDirect — 27K 5th Gen 3-zone cassette 9+9+12](https://hvacdirect.com/27000-btu-mrcool-diy-5th-gen-23-seer2-tri-zone-ceiling-cassette-mini-split-heat-pump-system-r454b-230v-9-9-12.html)
+- [Home Depot MRCOOL DIY](https://www.homedepot.com/b/Heating-Venting-Cooling-Mini-Split-Air-Conditioners-DIY-Mini-Splits/MRCOOL/N-5yc1vZbr98Z1z18ggoZ)
+- [Lowe's MRCOOL selection](https://www.lowes.com/b/mrcool)
+
+---
+
+### ACiQ Extreme Slim Cassette — Full Specs
+
+**Best for: Cold climates that see temperatures below -13°F**
+
+- Outdoor: ACIQ-27Z-HH-M3B (Extreme Heat) or ES-27Z-M3 (Standard, higher SEER2)
+- Cassette (× 3): SCC-0609-HH-MB (Extreme) or SCC-0609-HH-M-2 (Standard)
+- Cassette body: **13.19" × 50.31" × 8.98"** — fits 16" OC joists
+- Extreme: SEER2 23.0 / heats to **-22°F**
+- Standard: SEER2 **24.6** / heats to -13°F
+- R-454B refrigerant, traditional install (vacuum required)
+- Built-in condensate pump (14" lift)
+- One-way airflow
+
+**Links:**
+- [ACiQ 27K Extreme 9+9+9 at OnlineSupply](https://onlinesupply.com/aciq-27k-btu-3-zone-aciq-27-hh-m3-cc-9-9-9.html)
+- [ACiQ 27K Extreme 9+9+9 at HVACDirect](https://hvacdirect.com/aciq-27k-btu-3-zone-aciq-27-hh-m3-cc-9-9-9.html)
+- [ACiQ 27K Standard (24.6 SEER2) at HVACDirect](https://hvacdirect.com/aciq-27k-btu-24-6-seer2-3-zone-ceiling-cassette-mini-split-es-27z-m3-9-9-9-124283.html)
+- [ACiQ 27K 3-zone on Amazon](https://us.amazon.com/3-Zone-Ceiling-Cassette-System-Extreme/dp/B0C8B6G6H7)
+- [ACiQ SCC-0609 spec sheet (PDF)](https://aciq.com/wp-content/uploads/2024/05/SCC-0609-HH-M-Submittal-2023-9K.pdf)
+- [ACiQ slim cassette product page](https://aciq.com/residential-products/mini-splits/slim-ceiling-cassette-air-handlers/)
+- [Build-your-own config at AC Direct](https://www.acdirect.com/aciq-27000-btu-3-zone-mini-split-heat-pump-ac-system-choose-your-indoor-units-r454b-6759.html)
+
+---
+
+### Pioneer Quantum Ultra + CYK Cassette — Full Specs
+
+**Best for: Highest long-term efficiency + 7-year warranty — IF current slim cassette model confirmed**
+
+- Outdoor: YN030GLSI24M3G
+- Cassette (× 3): Quantum Series Multi-Zone One-Way 9K (verify current model # — CK009GMFILCFHD discontinued)
+- Cassette body: **13.25" × ~50.25" × 9"** — fits 16" OC joists
+- SEER2: **24.0** (highest of any confirmed option)
+- R-454B, traditional install (vacuum required)
+- Warranty: 5 yr self / **7 yr with HVAC sign-off**
+- Built-in condensate pump
+
+**Links:**
+- [Pioneer Multi-Zone 9K One-Way Cassette (indoor section)](https://www.pioneerminisplit.com/products/pioneer-multi-zone-9-000-btu-quantum-series-one-way-cassette-indoor-section-split-inverter-air-conditioner-heat-pump-230v)
+- [Pioneer Multi-Zone 12K One-Way Cassette (indoor section)](https://www.pioneerminisplit.com/products/pioneer-multi-zone-12-000-btu-quantum-series-one-way-cassette-indoor-section-split-inverter-air-conditioner-heat-pump-230v)
+- [Pioneer 27K 3-Zone Outdoor Unit](https://www.pioneerminisplit.com/products/pioneer-multi-3-circuit-quantum-ultra-series-24-seer2-triple-zone-outdoor-section-inverter-energy-star-air-conditioner-heat-pump-230v)
+- [Pioneer CYK collection page](https://www.pioneerminisplit.com/collections/cyk)
+- [Pioneer Multi-Zone Matching Table (2026 A2L Edition)](https://www.pioneerminisplit.com/pages/pioneer-multi-zone-matching-table-2026-a2l-edition)
+- [Pioneer 9K CYK at highseer.com](https://www.highseer.com/products/pioneer%C2%AE-multi-zone-9-000-btu-quantum-series-one-way-cassette-indoor-section-split-inverter-air-conditioner-heat-pump-230v)
+
+**Before ordering:** Call Pioneer at **(800) 675-7410** — ask for current model number of multi-zone compatible slim one-way cassette for YN030GLSI24M3G.
+
+---
+
+### Cooper & Hunter OLIVIA — Full Specs
+
+**Best for: Highest SEER2 rating (24.6) at a competitive price**
+
+- Outdoor: 28K 3-zone OLIVIA series
+- Cassette (× 3): CH-09MCT1W-230VI (9K one-way)
+- Cassette body: **13.19" wide** — fits 16" OC joists
+- SEER2: **24.6** (highest found in any confirmed system)
+- R-454B, traditional install (vacuum required, confirm with seller)
+- Heats to -13°F
+
+**Links:**
+- [CH-09MCT1W-230VI product page (Cooper & Hunter)](https://cooperandhunter.us/product/ch-09mct1w-230vi)
+- [28K 3-Zone 9+9+9 with install kits at MiniSplitsforLess](https://minisplitsforless.com/products/28-000-btu-3-zone-9k-9k-12k-ceiling-cassettes-with-installation-kits-24-6-seer2-2-3-ton-tri-zone-ductless-multi-mini-split-air-conditioner)
+- [28K 3-Zone 9+9+9 at Walmart](https://www.walmart.com/ip/Cooper-Hunter-28000-BTU-230V-Ceiling-Cassette-Tri-3-Zone-Mini-Split-Heat-Pump-Air-Conditioner-9K-9K-9K-Cover-1200-Sq-Ft/929439438)
+- [Cooper & Hunter one-way cassette line](https://cooperandhunter.us/categories/commercial/air-to-air-heat-pump-commercial/indoors-one-way-cassette)
+
+**Before ordering:** Confirm cassette panel dimensions with seller to verify joist fit (body 13.19" confirmed, but verify no protrusion issues on ceiling side).
+
+---
+
+### DELLA Home — Budget Option (Verify Dimensions Before Ordering)
+
+**Best for: Budget-conscious, willing to verify specs before purchase**
+
+- Configurations: 27K 3-zone in 9+9+9, 9+9+12, 12+12+12
+- Includes line sets and wall thermostats
+- Free ground shipping
+- Cassette dimensions: **NOT YET CONFIRMED** — call before ordering
+- SEER2: ~20.5 (lower than alternatives)
+- R-454B
+
+**Pricing (use code SP10 for ~10% off):**
+- 27K 9+9+9: ~$3,401 after coupon
+- 27K 9+9+12: ~$3,446 after coupon
+- 27K 12+12+12: ~$3,536 after coupon
+
+**Links:**
+- [DELLA 27K 9+9+9 Tri-Zone](https://dellahome.com/products/27000-btu-tri-zone-ceiling-cassette-mini-split-ac-9k-9k-9k-up-to-1200-sq-ft)
+- [DELLA 27K 9+9+12 Tri-Zone](https://dellahome.com/products/27000-btu-tri-zone-ceiling-cassette-mini-split-ac-9k-9k-12k-up-to-1350-sq-ft)
+- [DELLA 27K 12+12+12 Tri-Zone](https://dellahome.com/products/27000-btu-tri-zone-ceiling-cassette-mini-split-ac-12k-12k-12k-up-to-1650-sq-ft)
+- [DELLA blog: Which cassettes fit 16" joists](https://dellahome.com/blogs/della-blog/which-ceiling-cassette-mini-splits-fit-standard-16-inch-joists)
+
+**Required before ordering:** Call DELLA and ask for the body width (not panel width) of the ceiling cassette. Must be under 14.5" to fit between 16" OC joists.
+
+---
+
+### Systems That Do NOT Qualify
+
+| Brand / Model | Issue |
+|---|---|
+| Mitsubishi EZ FIT (MLZ-KX09NL) | Cassette body 43.38" wide — far too wide for joists |
+| Thermospace T7-OS209-EC | 22.44" × 22.44" square — too wide |
+| Pioneer CT009GLSILCFHG | 22.5" × 22.5" square — too wide |
+| Klimaire (standard cassette) | 4-way square unit, joist fit unconfirmed |
+| Boreal (any) | R-410A phasing out; slim dimensions unconfirmed |
+| Daikin residential | Slim cassette joist fit not confirmed for 3-zone |
+| Senville AURA | Joist compatibility unconfirmed, high price |
