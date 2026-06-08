@@ -33,7 +33,17 @@
 
 ---
 
-## Selected Equipment
+## ⚠ PLAN STATUS UPDATE — June 2026
+
+**The all-ceiling-cassette Pioneer plan has a compatibility problem.** See "Pioneer Cassette Compatibility Gap" section below.
+
+**Current leading recommendation: MRCOOL DIY 5th Gen OuttaSight 3-zone system.** See "Current Top Recommendation" section below.
+
+---
+
+## Selected Equipment (ORIGINAL PLAN — verify before ordering)
+
+> **NOTE:** The CK009GMFILCFHD slim one-way cassette listed as Pioneer-compatible has been confirmed **discontinued** with no direct replacement. Before ordering any Pioneer indoor unit, call Pioneer at (800) 675-7410 and ask: *"What is the current multi-zone compatible slim one-way ceiling cassette model that fits 16-inch on-center joists for use with the YN030GLSI24M3G?"* If no answer exists, use MRCOOL DIY OuttaSight instead.
 
 ### Outdoor Unit
 | Item | Detail |
