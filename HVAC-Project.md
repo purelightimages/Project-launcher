@@ -45,7 +45,7 @@
 | **Efficiency** | 24.0 SEER2 / 12.0 EER2 |
 | **Refrigerant** | R-454B (pre-charged to 25 ft per circuit) |
 | **Power** | 208–230V, 1-phase, 60Hz, 30A breaker (double-pole) |
-| **Price** | ~$1,678 (sale) / $2,399 (regular) |
+| **Price** | ~$1,678 (sale) / $2,399 (regular) — Pioneer direct store |
 
 ### Indoor Units
 
@@ -210,7 +210,7 @@ Have HVAC tech pull vacuum, open service valves, commission system, and sign pap
 
 | Item | Est. Cost |
 |---|---|
-| Outdoor unit (YN030GLSI24M3G) | ~$1,678 |
+| Outdoor unit (YN030GLSI24M3G) | ~$1,678 (Pioneer direct, free ship) / $1,676 (highseer.com $1,528 + $148 ship — essentially same) |
 | 2 × RT009 concealed duct indoor units | ~$1,400 |
 | CYK-24 9K multi-zone indoor section | ~$450 |
 | 3 × Pre-made line sets (est.) | ~$150–$300 |
@@ -406,7 +406,7 @@ ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** 
 |---|---|---|---|---|
 | **MRCOOL DIY 5th Gen** | 27K 3-zone OuttaSight cassettes 9+9+9 or 9+9+12 | ~$3,200–$4,000 | **Optional** | No vacuum, no EPA — biggest DIY advantage |
 | **Pioneer Quantum Ultra** | 27K 3-zone, mixed (2× RT009 duct + 1× CYK cassette) | ~$2,978–$3,578 | YES ($400–$700) | 24 SEER2, 7-yr warranty w/ sign-off |
-| **Pioneer Bundle (Home Depot)** | 27K 3-zone, 3× wall units + 16ft lines | **$2,887** (confirmed) | YES | Wall units only — not cassettes |
+| **Pioneer Bundle (Home Depot)** | 27K 3-zone, 3× wall units + 16ft lines | **$2,887** (confirmed, free shipping) | YES | Wall units only — not cassettes |
 | **ACiQ Extreme** | 27K 3-zone, 3× ceiling cassettes 9+9+9 | ~$2,500–$3,200 | YES ($400–$700) | -22°F heat, slim cassette fits joists |
 | **Cooper & Hunter OLIVIA** | 28K 3-zone, ceiling cassettes 9+9+9 | ~$2,800–$3,500 | YES ($400–$700) | 24.6 SEER2 (highest rated) |
 | **Thermospace HYPERHEAT** | 27K 3-zone, mixed w/ cassettes | ~$2,534 + $420 cassettes ≈ $2,954 | YES ($400–$700) | -22°F heat, R-410A (old refrigerant) |
@@ -420,7 +420,7 @@ ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** 
 
 | Brand | Best Price Source | Notes |
 |---|---|---|
-| Pioneer | [highseer.com](https://www.highseer.com) | $1,528 outdoor unit (sale vs $2,179 regular) |
+| Pioneer | [highseer.com](https://www.highseer.com) | $1,528 + $148 shipping = **$1,676 delivered** (vs $2,179 + $148 = $2,327 regular) — barely cheaper than Pioneer direct sale price |
 | Pioneer | [Home Depot](https://www.homedepot.com) | $2,887 complete bundle (wall units) |
 | MRCOOL | [mrcooldiydirect.com](https://mrcooldiydirect.com) | Authorized MRCOOL dealer |
 | MRCOOL | [hvacdirect.com](https://hvacdirect.com) | Good selection, 5th Gen cassette configs |
