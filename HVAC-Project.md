@@ -410,7 +410,7 @@ ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** 
 - Refrigerant: R-454B
 - Cassette type: OLIVIA one-way (CH-09MCT1W-230VI) — one-way airflow
 - Complete 3-zone systems (9K+9K+9K or 9K+9K+12K) available with installation kits
-- Price range: Estimated $2,800–$3,500 (check MiniSplits4Less, SouthMiniSplits)
+- Price range: ~~$2,800–$3,500~~ **verified $5,000+ as of June 2026 — no longer competitive**
 
 **Where to shop:**
 - [MiniSplits4Less C&H OLIVIA 3-Zone](https://minisplitsforless.com/products/28-000-btu-3-zone-9k-9k-12k-ceiling-cassettes-with-installation-kits-24-6-seer2-2-3-ton-tri-zone-ductless-multi-mini-split-air-conditioner)
@@ -458,7 +458,7 @@ ACiQ (Air Conditioners International Quality) makes the **Extreme Heat series** 
 | **Pioneer Quantum Ultra** | 27K 3-zone, mixed (2× RT009 duct + 1× CYK cassette) | ~$2,978–$3,578 | YES ($400–$700) | 24 SEER2, 7-yr warranty w/ sign-off |
 | **Pioneer Bundle (Home Depot)** | 27K 3-zone, 3× wall units + 16ft lines | **$2,887** (confirmed, free shipping) | YES | Wall units only — not cassettes |
 | **ACiQ Extreme** | 27K 3-zone, 3× ceiling cassettes 9+9+9 | ~$2,500–$3,200 | YES ($400–$700) | -22°F heat, slim cassette fits joists |
-| **Cooper & Hunter OLIVIA** | 28K 3-zone, ceiling cassettes 9+9+9 | ~$2,800–$3,500 | YES ($400–$700) | 24.6 SEER2 (highest rated) |
+| **Cooper & Hunter OLIVIA** | 28K 3-zone, ceiling cassettes 9+9+9 | ~~$2,800–$3,500~~ **$5,000+ as of June 2026** | YES ($400–$700) | 24.6 SEER2 — no longer competitive at this price |
 | **Thermospace HYPERHEAT** | 27K 3-zone, mixed w/ cassettes | ~$2,534 + $420 cassettes ≈ $2,954 | YES ($400–$700) | -22°F heat, R-410A (old refrigerant) |
 | **Senville AURA** | 28K 3-zone (outdoor only $2,599) | $3,500–$4,500 total est. | YES ($400–$700) | Pricier than Pioneer for same result |
 
@@ -854,7 +854,7 @@ Only slim one-way cassettes (width under 14.5") fit a single 16" OC joist bay. A
 | **ACiQ Extreme Slim Cassette** | 13.19" | YES | 23.0 | **-22°F** | YES | $2,500–$3,200 |
 | **ACiQ Standard Slim Cassette** | 13.19" | YES | 24.6 | -13°F | YES | $2,500–$3,200 |
 | **Pioneer Quantum Ultra + CYK** | 13.25" | YES* | 24.0 | -13°F | YES | $3,200–$3,400 |
-| **Cooper & Hunter OLIVIA** | 13.19" | YES | 24.6 | -13°F | YES | $2,800–$3,500 |
+| **Cooper & Hunter OLIVIA** | 13.19" | YES | 24.6 | -13°F | YES | ~~$2,800–$3,500~~ **$5,000+ as of June 2026 — verify before considering** |
 | **DELLA Home** | unconfirmed | YES | ~20.5 | unknown | YES | $3,400–$3,930 |
 
 *Pioneer: call to confirm current model number — CK009GMFILCFHD is discontinued.
@@ -943,7 +943,9 @@ Only slim one-way cassettes (width under 14.5") fit a single 16" OC joist bay. A
 
 ### Cooper & Hunter OLIVIA — Full Specs
 
-**Best for: Highest SEER2 rating (24.6) at a competitive price**
+> ⚠ **Price verified June 2026: $5,000+ — no longer competitive.** The SEER2 advantage (24.6) does not justify ~$2,000 more than MRCOOL or ACiQ. Leaving specs here for reference only; do not use as primary option at this price.
+
+**Was best for: Highest SEER2 rating (24.6) — now overpriced**
 
 - Outdoor: 28K 3-zone OLIVIA series
 - Cassette (× 3): CH-09MCT1W-230VI (9K one-way)
