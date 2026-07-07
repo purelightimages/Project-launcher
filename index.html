@@ -3,8 +3,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
 <title>Project Launcher</title>
+
+<!-- iPhone / Home Screen app support -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Projects"/>
+<meta name="theme-color" content="#1e3a5f"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="192x192" href="icon-192.png"/>
+<link rel="manifest" href="manifest.json"/>
+
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet"/>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -17,7 +28,7 @@
 .header { background: linear-gradient(135deg, #1e3a5f, #2a5898); border-bottom: 1px solid #1a3050; padding: 36px 32px 24px; }
 .header-inner { max-width: 780px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-end; }
 .eyebrow { font-size: 10px; letter-spacing: 0.2em; color: #90d0ff; text-transform: uppercase; margin-bottom: 8px; }
-h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight: 300; font-style: italic; color: #ffffff; line-height: 1; }
+h1 { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 300; font-style: italic; color: #ffffff; line-height: 1; }
 .header-meta { font-size: 11px; color: #a8ccee; letter-spacing: 0.08em; text-align: right; }
 
 /* CONTENT */
@@ -25,10 +36,10 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 
 /* NEW PROJECT BAR */
 .new-project-bar { display: flex; gap: 10px; margin-bottom: 32px; }
-.new-project-input { flex: 1; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 3px; padding: 12px 16px; font-family: ‘DM Mono’, monospace; font-size: 13px; color: #000000; outline: none; transition: all 0.2s; letter-spacing: 0.04em; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.new-project-input { flex: 1; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 3px; padding: 12px 16px; font-family: 'DM Mono', monospace; font-size: 13px; color: #000000; outline: none; transition: all 0.2s; letter-spacing: 0.04em; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
 .new-project-input::placeholder { color: #0f2030; }
 .new-project-input:focus { border-color: #001060; box-shadow: 0 0 0 3px rgba(42,106,191,0.1); }
-.btn { background: #2a5898; border: 1px solid #1e3a5f; color: #ffffff; padding: 12px 20px; font-family: ‘DM Mono’, monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; border-radius: 3px; transition: all 0.2s; white-space: nowrap; }
+.btn { background: #2a5898; border: 1px solid #1e3a5f; color: #ffffff; padding: 12px 20px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; border-radius: 3px; transition: all 0.2s; white-space: nowrap; }
 .btn:hover { background: #1e3a5f; }
 .btn.danger { background: #fff0ee; color: #c03020; border: 1px solid #f0b8b0; }
 .btn.danger:hover { background: #ffd8d4; border-color: #c03020; }
@@ -43,7 +54,7 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .project-card:hover { border-color: #001060; transform: translateY(-2px); box-shadow: 0 8px 20px rgba(42,106,191,0.15); }
 .project-card-accent { position: absolute; top: 0; left: 0; right: 0; height: 3px; }
 .project-icon { font-size: 24px; margin-bottom: 12px; }
-.project-name { font-family: ‘Cormorant Garamond’, serif; font-size: 20px; font-style: italic; font-weight: 300; color: #000000; margin-bottom: 6px; }
+.project-name { font-family: 'Cormorant Garamond', serif; font-size: 20px; font-style: italic; font-weight: 300; color: #000000; margin-bottom: 6px; }
 .project-stats { font-size: 11px; color: #0a1a2a; letter-spacing: 0.06em; line-height: 1.7; }
 .project-date { font-size: 10px; color: #0f2030; margin-top: 10px; letter-spacing: 0.08em; }
 .empty-state { text-align: center; padding: 64px 0; }
@@ -51,20 +62,20 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .empty-text { font-size: 12px; letter-spacing: 0.1em; color: #0f2030; }
 
 /* PROJECT VIEW */
-.back-btn { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; color: #a8ccee; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; margin-bottom: 24px; transition: color 0.2s; background: none; border: none; font-family: ‘DM Mono’, monospace; }
+.back-btn { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; color: #a8ccee; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; margin-bottom: 24px; transition: color 0.2s; background: none; border: none; font-family: 'DM Mono', monospace; }
 .back-btn:hover { color: #ffffff; }
 
 /* RENAME */
 .proj-title-wrap { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
-.rename-input { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight: 300; font-style: italic; color: #ffffff; background: transparent; border: none; border-bottom: 1px solid #90d0ff; outline: none; line-height: 1; width: 320px; padding-bottom: 2px; }
-.edit-name-btn { font-size: 10px; color: #a8ccee; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; background: none; border: 1px solid rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 2px; font-family: ‘DM Mono’, monospace; transition: all 0.2s; white-space: nowrap; }
+.rename-input { font-family: 'Cormorant Garamond', serif; font-size: 42px; font-weight: 300; font-style: italic; color: #ffffff; background: transparent; border: none; border-bottom: 1px solid #90d0ff; outline: none; line-height: 1; width: 320px; padding-bottom: 2px; }
+.edit-name-btn { font-size: 10px; color: #a8ccee; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; background: none; border: 1px solid rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 2px; font-family: 'DM Mono', monospace; transition: all 0.2s; white-space: nowrap; }
 .edit-name-btn:hover { color: #ffffff; border-color: rgba(255,255,255,0.7); }
-.save-name-btn { font-size: 10px; color: #60e8a8; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; background: none; border: 1px solid rgba(96,232,168,0.4); padding: 4px 10px; border-radius: 2px; font-family: ‘DM Mono’, monospace; transition: all 0.2s; }
+.save-name-btn { font-size: 10px; color: #60e8a8; cursor: pointer; letter-spacing: 0.08em; text-transform: uppercase; background: none; border: 1px solid rgba(96,232,168,0.4); padding: 4px 10px; border-radius: 2px; font-family: 'DM Mono', monospace; transition: all 0.2s; }
 .save-name-btn:hover { background: rgba(96,232,168,0.15); border-color: #60e8a8; }
 
 /* TABS */
 .tabs { display: flex; gap: 0; border-bottom: 2px solid #d8e8f4; margin-bottom: 28px; }
-.tab { padding: 10px 20px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; color: #0a1a2a; border-bottom: 2px solid transparent; transition: all 0.2s; background: none; border-top: none; border-left: none; border-right: none; font-family: ‘DM Mono’, monospace; margin-bottom: -2px; }
+.tab { padding: 10px 20px; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; cursor: pointer; color: #0a1a2a; border-bottom: 2px solid transparent; transition: all 0.2s; background: none; border-top: none; border-left: none; border-right: none; font-family: 'DM Mono', monospace; margin-bottom: -2px; }
 .tab:hover { color: #000820; }
 .tab.active { color: #000820; border-bottom-color: #000820; font-weight: 500; }
 
@@ -74,7 +85,7 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 
 /* TASKS */
 .add-row { display: flex; gap: 10px; margin-bottom: 16px; }
-.input-sm { flex: 1; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 3px; padding: 10px 14px; font-family: ‘DM Mono’, monospace; font-size: 12px; color: #000000; outline: none; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.input-sm { flex: 1; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 3px; padding: 10px 14px; font-family: 'DM Mono', monospace; font-size: 12px; color: #000000; outline: none; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 .input-sm::placeholder { color: #0f2030; }
 .input-sm:focus { border-color: #001060; box-shadow: 0 0 0 3px rgba(42,106,191,0.1); }
 .task-item { display: flex; align-items: center; gap: 12px; padding: 12px 14px; background: #ffffff; border: 1px solid #d0e0ee; border-radius: 4px; margin-bottom: 6px; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
@@ -85,11 +96,11 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .task-check.done .ck { display: block; }
 .task-label { flex: 1; font-size: 13px; color: #000000; letter-spacing: 0.02em; cursor: pointer; }
 .task-label.done { text-decoration: line-through; color: #0f2030; }
-.del-btn { font-size: 11px; color: #b0c8e0; cursor: pointer; transition: color 0.15s; background: none; border: none; font-family: ‘DM Mono’, monospace; padding: 2px 4px; }
+.del-btn { font-size: 11px; color: #b0c8e0; cursor: pointer; transition: color 0.15s; background: none; border: none; font-family: 'DM Mono', monospace; padding: 2px 4px; }
 .del-btn:hover { color: #c03020; }
 
 /* NOTES */
-.notes-area { width: 100%; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 4px; padding: 16px; font-family: ‘DM Mono’, monospace; font-size: 13px; color: #000000; outline: none; resize: vertical; min-height: 180px; line-height: 1.7; transition: all 0.2s; letter-spacing: 0.03em; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+.notes-area { width: 100%; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 4px; padding: 16px; font-family: 'DM Mono', monospace; font-size: 13px; color: #000000; outline: none; resize: vertical; min-height: 180px; line-height: 1.7; transition: all 0.2s; letter-spacing: 0.03em; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
 .notes-area:focus { border-color: #001060; box-shadow: 0 0 0 3px rgba(42,106,191,0.1); }
 
 /* FILES */
@@ -101,7 +112,7 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .file-size { color: #0a1a2a; font-size: 10px; }
 
 /* AI PROMPTS */
-.prompt-area { width: 100%; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 4px; padding: 14px; font-family: ‘DM Mono’, monospace; font-size: 13px; color: #000000; outline: none; resize: vertical; min-height: 100px; line-height: 1.7; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.prompt-area { width: 100%; background: #ffffff; border: 1px solid #c0d0e0; border-radius: 4px; padding: 14px; font-family: 'DM Mono', monospace; font-size: 13px; color: #000000; outline: none; resize: vertical; min-height: 100px; line-height: 1.7; transition: all 0.2s; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
 .prompt-area:focus { border-color: #001060; box-shadow: 0 0 0 3px rgba(42,106,191,0.1); }
 .prompt-saved { background: #ffffff; border: 1px solid #d0e0ee; border-left: 3px solid #2a6abf; border-radius: 4px; padding: 14px; margin-bottom: 8px; font-size: 12px; line-height: 1.7; position: relative; box-shadow: 0 1px 3px rgba(0,0,0,0.04); }
 .prompt-saved-label { font-size: 9px; color: #001060; letter-spacing: 0.1em; margin-bottom: 6px; font-weight: 500; }
@@ -119,18 +130,18 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .task-notes-panel { width: 100%; margin-top: 10px; padding-top: 10px; border-top: 1px solid #e0eaf2; display: none; animation: slideDown 0.15s ease; }
 .task-notes-panel.open { display: block; }
 @keyframes slideDown { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
-.task-note-input { width: 100%; background: #f4f8fc; border: 1px solid #d0e0ee; border-radius: 3px; padding: 8px 12px; font-family: ‘DM Mono’, monospace; font-size: 11px; color: #000000; outline: none; resize: vertical; min-height: 60px; line-height: 1.6; transition: all 0.2s; }
+.task-note-input { width: 100%; background: #f4f8fc; border: 1px solid #d0e0ee; border-radius: 3px; padding: 8px 12px; font-family: 'DM Mono', monospace; font-size: 11px; color: #000000; outline: none; resize: vertical; min-height: 60px; line-height: 1.6; transition: all 0.2s; }
 .task-note-input::placeholder { color: #90a8c0; }
 .task-note-input:focus { border-color: #2a6abf; box-shadow: 0 0 0 2px rgba(42,106,191,0.08); }
-.task-expand-btn { font-size: 9px; color: #90a8c0; cursor: pointer; background: none; border: none; font-family: ‘DM Mono’, monospace; letter-spacing: 0.08em; padding: 2px 4px; transition: color 0.15s; flex-shrink: 0; }
+.task-expand-btn { font-size: 9px; color: #90a8c0; cursor: pointer; background: none; border: none; font-family: 'DM Mono', monospace; letter-spacing: 0.08em; padding: 2px 4px; transition: color 0.15s; flex-shrink: 0; }
 .task-expand-btn:hover { color: #2a6abf; }
 .task-has-note { color: #2a6abf !important; }
 
 /* CALENDAR TAB */
 .cal-add-row { display: flex; gap: 10px; margin-bottom: 18px; }
 .cal-month-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
-.cal-month-title { font-family: ‘Cormorant Garamond’, serif; font-size: 24px; font-style: italic; font-weight: 300; color: #000; }
-.cal-nav-btn { background: #fff; border: 1px solid #c0d0e0; color: #2a5898; width: 30px; height: 30px; border-radius: 3px; cursor: pointer; font-size: 16px; font-family: ‘DM Mono’, monospace; transition: all 0.2s; }
+.cal-month-title { font-family: 'Cormorant Garamond', serif; font-size: 24px; font-style: italic; font-weight: 300; color: #000; }
+.cal-nav-btn { background: #fff; border: 1px solid #c0d0e0; color: #2a5898; width: 30px; height: 30px; border-radius: 3px; cursor: pointer; font-size: 16px; font-family: 'DM Mono', monospace; transition: all 0.2s; }
 .cal-nav-btn:hover { background: #f0f6ff; border-color: #2a5898; }
 .cal-grid-wrap { background: #fff; border: 1px solid #c8d8e8; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
 .cal-days-header { display: grid; grid-template-columns: repeat(7,1fr); background: #2a5898; }
@@ -152,7 +163,7 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 .cal-upcoming-dot { width: 7px; height: 7px; background: #2a5898; border-radius: 50%; flex-shrink: 0; }
 .cal-upcoming-label { flex: 1; font-size: 12px; color: #000; }
 .cal-upcoming-date { font-size: 10px; color: #5a7a98; }
-.cal-upcoming-del { font-size: 10px; color: #b0c8e0; cursor: pointer; background: none; border: none; font-family: ‘DM Mono’, monospace; transition: color 0.15s; }
+.cal-upcoming-del { font-size: 10px; color: #b0c8e0; cursor: pointer; background: none; border: none; font-family: 'DM Mono', monospace; transition: color 0.15s; }
 .cal-upcoming-del:hover { color: #c03020; }
 
 /* SECTION LABEL */
@@ -161,6 +172,23 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
 ::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: #eef2f7; }
 ::-webkit-scrollbar-thumb { background: #b8cce0; border-radius: 2px; }
+
+/* iPHONE / SMALL SCREENS */
+.header { padding-top: calc(36px + env(safe-area-inset-top, 0px)); }
+.content { padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)); }
+.tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.tabs::-webkit-scrollbar { display: none; }
+.tab { flex-shrink: 0; }
+@media (max-width: 600px) {
+  .header { padding-left: 20px; padding-right: 20px; }
+  .content { padding-left: 20px; padding-right: 20px; }
+  h1 { font-size: 32px; }
+  .rename-input { width: 100%; font-size: 32px; }
+  .new-project-bar, .add-row, .cal-add-row { flex-wrap: wrap; }
+  .new-project-input, .input-sm { min-width: 140px; }
+  .cal-cell { min-height: 64px; padding: 4px; }
+  .cal-chip { font-size: 8px; }
+}
 </style>
 
 </head>
@@ -217,7 +245,6 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
       <button class="tab" onclick="switchTab('export')">Export</button>
     </div>
 
-```
 <!-- TASKS -->
 <div id="tab-tasks" class="tab-panel active">
   <div class="section-label">Checklist</div>
@@ -307,7 +334,6 @@ h1 { font-family: ‘Cormorant Garamond’, serif; font-size: 42px; font-weight:
     <button class="btn danger" onclick="deleteProject()">✕ Delete Project</button>
   </div>
 </div>
-```
 
   </div>
 </div>
@@ -472,18 +498,16 @@ function renderTasks() {
       <div class="task-notes-panel ${isOpen ? 'open' : ''}">
         <textarea class="task-note-input" placeholder="Add notes for this task..." onchange="saveTaskNote('${t.id}', this.value)" oninput="saveTaskNote('${t.id}', this.value)">${t.note || ''}</textarea>
 
-```
   </div>
 </div>`;
-```
 
-}).join(’’);
+}).join('');
 }
 
 // ─── NOTES ────────────────────────────────────────────────────────────────────
 function saveNotes() {
 const p = getProject();
-p.notes = document.getElementById(‘notes-area’).value;
+p.notes = document.getElementById('notes-area').value;
 save();
 }
 
@@ -491,7 +515,7 @@ save();
 function handleFiles(e) {
 const p = getProject();
 Array.from(e.target.files).forEach(f => {
-p.files.push({ id: ‘f_’ + Date.now() + Math.random(), name: f.name, size: f.size, type: f.type, added: new Date().toISOString() });
+p.files.push({ id: 'f_' + Date.now() + Math.random(), name: f.name, size: f.size, type: f.type, added: new Date().toISOString() });
 });
 save(); renderFiles();
 }
@@ -504,22 +528,22 @@ save(); renderFiles();
 
 function renderFiles() {
 const p = getProject();
-const list = document.getElementById(‘file-list’);
+const list = document.getElementById('file-list');
 if (p.files.length === 0) {
 list.innerHTML = `<div style="text-align:center;padding:24px 0;color:#6a8898;font-size:11px;letter-spacing:0.08em">No files attached.</div>`;
 return;
 }
-list.innerHTML = p.files.map(f => ` <div class="file-item"> <span class="file-icon">◻</span> <span class="file-name">${f.name}</span> <span class="file-size">${(f.size/1024).toFixed(1)} KB</span> <button class="del-btn" onclick="deleteFile('${f.id}')">✕</button> </div>`).join(’’);
+list.innerHTML = p.files.map(f => ` <div class="file-item"> <span class="file-icon">◻</span> <span class="file-name">${f.name}</span> <span class="file-size">${(f.size/1024).toFixed(1)} KB</span> <button class="del-btn" onclick="deleteFile('${f.id}')">✕</button> </div>`).join('');
 }
 
 // ─── AI PROMPTS ───────────────────────────────────────────────────────────────
 function addPrompt() {
-const input = document.getElementById(‘new-prompt-input’);
+const input = document.getElementById('new-prompt-input');
 const text = input.value.trim();
 if (!text) return;
 const p = getProject();
-p.prompts.push({ id: ‘pr_’ + Date.now(), text, created: new Date().toISOString() });
-save(); input.value = ‘’;
+p.prompts.push({ id: 'pr_' + Date.now(), text, created: new Date().toISOString() });
+save(); input.value = '';
 renderPrompts();
 }
 
@@ -531,19 +555,19 @@ save(); renderPrompts();
 
 function renderPrompts() {
 const p = getProject();
-const list = document.getElementById(‘prompt-list’);
+const list = document.getElementById('prompt-list');
 if (p.prompts.length === 0) {
 list.innerHTML = `<div style="text-align:center;padding:24px 0;color:#6a8898;font-size:11px;letter-spacing:0.08em">No prompts saved.</div>`;
 return;
 }
-list.innerHTML = p.prompts.map(pr => ` <div class="prompt-saved"> <div class="prompt-saved-label">PROMPT · ${new Date(pr.created).toLocaleDateString('en-US',{month:'short',day:'numeric'})}</div> <div class="prompt-text">${pr.text}</div> <button class="del-btn" style="position:absolute;top:12px;right:12px" onclick="deletePrompt('${pr.id}')">✕</button> </div>`).join(’’);
+list.innerHTML = p.prompts.map(pr => ` <div class="prompt-saved"> <div class="prompt-saved-label">PROMPT · ${new Date(pr.created).toLocaleDateString('en-US',{month:'short',day:'numeric'})}</div> <div class="prompt-text">${pr.text}</div> <button class="del-btn" style="position:absolute;top:12px;right:12px" onclick="deletePrompt('${pr.id}')">✕</button> </div>`).join('');
 }
 
 // ─── EXPORT ───────────────────────────────────────────────────────────────────
 function buildJSON() {
 const p = getProject();
 return JSON.stringify({
-schema: “project-launcher/v1”,
+schema: "project-launcher/v1",
 exported: new Date().toISOString(),
 project: {
 id: p.id,
@@ -579,7 +603,7 @@ return md;
 
 function downloadFile(content, filename, type) {
 const blob = new Blob([content], { type });
-const a = document.createElement(‘a’);
+const a = document.createElement('a');
 a.href = URL.createObjectURL(blob);
 a.download = filename;
 a.click();
@@ -587,24 +611,24 @@ a.click();
 
 function exportJSON() {
 const p = getProject();
-downloadFile(buildJSON(), p.name.replace(/\s+/g,’-’).toLowerCase() + ‘.json’, ‘application/json’);
+downloadFile(buildJSON(), p.name.replace(/\s+/g,'-').toLowerCase() + '.json', 'application/json');
 }
 
 function exportMarkdown() {
 const p = getProject();
-downloadFile(buildMarkdown(), p.name.replace(/\s+/g,’-’).toLowerCase() + ‘.md’, ‘text/markdown’);
+downloadFile(buildMarkdown(), p.name.replace(/\s+/g,'-').toLowerCase() + '.md', 'text/markdown');
 }
 
 function copyJSON() {
-navigator.clipboard.writeText(buildJSON()).then(() => alert(‘JSON copied to clipboard!’));
+navigator.clipboard.writeText(buildJSON()).then(() => alert('JSON copied to clipboard!'));
 }
 
 function copyMarkdown() {
-navigator.clipboard.writeText(buildMarkdown()).then(() => alert(‘Markdown copied to clipboard!’));
+navigator.clipboard.writeText(buildMarkdown()).then(() => alert('Markdown copied to clipboard!'));
 }
 
 function deleteProject() {
-if (!confirm(‘Delete this project? This cannot be undone.’)) return;
+if (!confirm('Delete this project? This cannot be undone.')) return;
 projects = projects.filter(p => p.id !== currentId);
 save();
 goHome();
@@ -614,15 +638,15 @@ goHome();
 let calViewDate = new Date();
 
 function addCalendarTask() {
-const label = document.getElementById(‘cal-task-input’).value.trim();
-const date = document.getElementById(‘cal-date-input’).value;
+const label = document.getElementById('cal-task-input').value.trim();
+const date = document.getElementById('cal-date-input').value;
 if (!label || !date) return;
 const p = getProject();
 if (!p.calEvents) p.calEvents = [];
-p.calEvents.push({ id: ‘e_’ + Date.now(), label, date, done: false });
+p.calEvents.push({ id: 'e_' + Date.now(), label, date, done: false });
 save();
-document.getElementById(‘cal-task-input’).value = ‘’;
-document.getElementById(‘cal-date-input’).value = ‘’;
+document.getElementById('cal-task-input').value = '';
+document.getElementById('cal-date-input').value = '';
 renderCalendar();
 }
 
@@ -649,17 +673,17 @@ const p = getProject();
 const events = p.calEvents || [];
 const year = calViewDate.getFullYear();
 const month = calViewDate.getMonth();
-const todayStr = new Date().toISOString().split(‘T’)[0];
+const todayStr = new Date().toISOString().split('T')[0];
 
-document.getElementById(‘cal-month-title’).textContent =
-new Date(year, month, 1).toLocaleDateString(‘en-US’, { month: ‘long’, year: ‘numeric’ });
+document.getElementById('cal-month-title').textContent =
+new Date(year, month, 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
 
 const firstDay = new Date(year, month, 1).getDay();
 const daysInMonth = new Date(year, month + 1, 0).getDate();
 const daysInPrev = new Date(year, month, 0).getDate();
 
-let cells = ‘’;
-for (let i = firstDay - 1; i >= 0; i–) {
+let cells = '';
+for (let i = firstDay - 1; i >= 0; i--) {
 cells += `<div class="cal-cell other-month"><div class="cal-date-num">${daysInPrev - i}</div></div>`;
 }
 for (let d = 1; d <= daysInMonth; d++) {
@@ -667,7 +691,6 @@ const dateStr = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart
 const isToday = dateStr === todayStr;
 const dayEvents = events.filter(e => e.date === dateStr);
 
-```
 // Also show tasks with due dates matching this day
 const taskEvents = (p.tasks || []).filter(t => t.dueDate === dateStr);
 
@@ -680,7 +703,6 @@ cells += `<div class="cal-cell ${isToday ? 'today-cell' : ''}">
   <div class="cal-date-num ${isToday ? 'is-today' : ''}">${d}</div>
   ${chips}
 </div>`;
-```
 
 }
 const totalCells = firstDay + daysInMonth;
@@ -688,26 +710,26 @@ const remaining = totalCells % 7 === 0 ? 0 : 7 - (totalCells % 7);
 for (let i = 1; i <= remaining; i++) {
 cells += `<div class="cal-cell other-month"><div class="cal-date-num">${i}</div></div>`;
 }
-document.getElementById(‘cal-cells’).innerHTML = cells;
+document.getElementById('cal-cells').innerHTML = cells;
 
 // Upcoming list
-const nowStr = new Date().toISOString().split(‘T’)[0];
+const nowStr = new Date().toISOString().split('T')[0];
 const upcoming = events
 .filter(e => e.date >= nowStr)
 .sort((a,b) => a.date.localeCompare(b.date));
 
-const upcomingEl = document.getElementById(‘cal-upcoming’);
+const upcomingEl = document.getElementById('cal-upcoming');
 if (upcoming.length === 0) {
-upcomingEl.innerHTML = ‘’;
+upcomingEl.innerHTML = '';
 return;
 }
 upcomingEl.innerHTML = `<div class="cal-upcoming-section"> <div class="cal-upcoming-title">Upcoming — ${upcoming.length} event${upcoming.length !== 1 ? 's' : ''}</div> ${upcoming.map(e => `
 <div class="cal-upcoming-item">
 <div class="cal-upcoming-dot" style="${e.done ? 'background:#20a060' : ''}"></div>
 <span class="cal-upcoming-label" style="${e.done ? 'text-decoration:line-through;color:#90a8c0' : ''}">${e.label}</span>
-<span class="cal-upcoming-date">${new Date(e.date+‘T00:00:00’).toLocaleDateString(‘en-US’,{month:‘short’,day:‘numeric’})}</span>
+<span class="cal-upcoming-date">${new Date(e.date+'T00:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'})}</span>
 <button class="cal-upcoming-del" onclick="deleteCalEvent('${e.id}')">✕</button>
-</div>`).join(’’)}
+</div>`).join('')}
 
   </div>`;
 }
@@ -715,14 +737,14 @@ upcomingEl.innerHTML = `<div class="cal-upcoming-section"> <div class="cal-upcom
 // ─── RENAME ───────────────────────────────────────────────────────────────────
 function startRename() {
 const p = getProject();
-const title = document.getElementById(‘proj-title’);
-const input = document.getElementById(‘rename-input’);
-const editBtn = document.getElementById(‘edit-name-btn’);
-const saveBtn = document.getElementById(‘save-name-btn’);
-title.style.display = ‘none’;
-editBtn.style.display = ‘none’;
-input.style.display = ‘inline-block’;
-saveBtn.style.display = ‘inline-block’;
+const title = document.getElementById('proj-title');
+const input = document.getElementById('rename-input');
+const editBtn = document.getElementById('edit-name-btn');
+const saveBtn = document.getElementById('save-name-btn');
+title.style.display = 'none';
+editBtn.style.display = 'none';
+input.style.display = 'inline-block';
+saveBtn.style.display = 'inline-block';
 input.value = p.name;
 input.focus();
 input.select();
@@ -730,32 +752,34 @@ input.select();
 
 function saveRename() {
 const p = getProject();
-const input = document.getElementById(‘rename-input’);
+const input = document.getElementById('rename-input');
 const newName = input.value.trim();
 if (newName) p.name = newName;
 save();
 cancelRename();
-document.getElementById(‘proj-title’).textContent = p.name;
+document.getElementById('proj-title').textContent = p.name;
 renderHome();
 }
 
 function cancelRename() {
-document.getElementById(‘proj-title’).style.display = ‘’;
-document.getElementById(‘edit-name-btn’).style.display = ‘’;
-document.getElementById(‘rename-input’).style.display = ‘none’;
-document.getElementById(‘save-name-btn’).style.display = ‘none’;
+document.getElementById('proj-title').style.display = '';
+document.getElementById('edit-name-btn').style.display = '';
+document.getElementById('rename-input').style.display = 'none';
+document.getElementById('save-name-btn').style.display = 'none';
 }
 
 // ─── INIT ─────────────────────────────────────────────────────────────────────
-// Safe storage that works everywhere including GitHub Pages
-function save() {
-try { localStorage.setItem(‘pl_projects’, JSON.stringify(projects)); } catch(e) {}
-}
 try {
-const stored = localStorage.getItem(‘pl_projects’);
+const stored = localStorage.getItem('pl_projects');
 if (stored) projects = JSON.parse(stored);
 } catch(e) { projects = []; }
 renderHome();
+
+// Offline support (service worker) — lets the app run with no connection
+// once it has been opened or added to the Home Screen.
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+navigator.serviceWorker.register('sw.js').catch(() => {});
+}
 </script>
 
 </body>
